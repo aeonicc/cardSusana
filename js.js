@@ -571,7 +571,7 @@ var AirPlane = function() {
 	suspension.rotation.z = -.3;
 	this.mesh.add(suspension);
 	
-	var planeGeometry = new THREE.PlaneGeometry(320, 200);
+	var planeGeometry = new THREE.PlaneGeometry(480, 300);
 	var planeMaterial = new THREE.MeshBasicMaterial({side: THREE.DoubleSide})
 	var paper = new THREE.Mesh(planeGeometry, planeMaterial);
 	paper.position.set(-200,0,0)
